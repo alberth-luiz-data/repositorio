@@ -141,7 +141,7 @@ export function Projetos() {
         </motion.div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         style={projStyles.hint}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -149,7 +149,7 @@ export function Projetos() {
       >
         💡 <strong style={{ color: 'var(--purple-glow)' }}>Dica:</strong> Adicione novos projetos em{' '}
         <code style={{ color: 'var(--accent-cyan)', fontFamily: 'JetBrains Mono, monospace', fontSize: 12 }}>src/data/index.js</code>
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }
